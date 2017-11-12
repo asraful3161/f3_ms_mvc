@@ -1,0 +1,4 @@
+vendor/
+tmp/cache/
+apps/config/prod/config.ini
+apps/config/prod/db.ini

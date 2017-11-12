@@ -1,0 +1,22 @@
+{
+    "name": "asraful/f3_ms_mvc",
+    "description": "Boilerplate package for creating f3 microservices.",
+    "keywords": ["fatfree", "rest", "microservices"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Md. Asraful Islam",
+            "email": "asraful3161@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.3.6",
+        "bcosca/fatfree": "^3.6",
+        "vlucas/valitron": "^1.4",
+        "robmorgan/phinx": "^0.9.1"
+    },
+    "autoload":{
+        "files":["apps/helper/functions.php"]
+    }
+}
